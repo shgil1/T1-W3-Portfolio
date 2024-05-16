@@ -70,7 +70,7 @@ footer {
 .info p {
     margin: 5px 0;
 }
-
+/* These styles will only be applied to a minimum width of 600px */
 @media screen and (min-width: 600px) {
     header {
         display: flex;
@@ -85,7 +85,7 @@ footer {
     #nav-items {
         width: 50%;
     }
-
+/* This is the the most common way to align items to the screen */
     .social-media {
         width: 50%;
         margin-left: auto;
